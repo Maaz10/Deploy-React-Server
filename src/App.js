@@ -8,6 +8,7 @@ import {
 	BrowserRouter as Router,
 	Switch,
 	Route,
+	Link,
 } from "react-router-dom";
 
 import { Navbar, Nav} from "react-bootstrap"
@@ -25,8 +26,8 @@ function App() {
 
 				<Nav className="mr-auto">
 
-					<Nav.Link href="/">Quadratic</Nav.Link>
-					<Nav.Link href="/cubic">Cubic</Nav.Link>
+					<Link href="/">Quadratic</Link>
+					<Link href="/cubic">Cubic</Link>
 				</Nav>
 			</Navbar.Collapse>
 		</Navbar>
